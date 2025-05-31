@@ -181,7 +181,7 @@ if ((event.body.toLowerCase() == "satting karva de") || (event.body.toLowerCase(
 
    };
 
-   if ((event.body.toLowerCase() == "mela bacha") || (event.body.toLowerCase() == "@Mêlå Baçhå")) {
+   if ((event.body.toLowerCase() == "@Mêlå Baçhå") || (event.body.toLowerCase() == "mela bacha")) {
      return api.sendMessage("Mere Boss Busy Hai AbHi MuJhe Bolo kya kaam hai🤔🤔🤔", threadID);
    };
 
