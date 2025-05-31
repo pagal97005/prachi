@@ -181,7 +181,7 @@ if ((event.body.toLowerCase() == "satting karva de") || (event.body.toLowerCase(
 
    };
 
-   if ((event.body.toLowerCase() == "@Mêlå Bãçhå") || (event.body.toLowerCase() == "mela bacha")) {
+   if ((event.body.toLowerCase() == "mela bacha") || (event.body.toLowerCase() == "@Mêlå Baçhå")) {
      return api.sendMessage("Mere Boss Busy Hai AbHi MuJhe Bolo kya kaam hai🤔🤔🤔", threadID);
    };
 
@@ -258,7 +258,7 @@ if ((event.body.toLowerCase() == "satting karva de") || (event.body.toLowerCase(
     return api.sendMessage("️muh mat kholo chuha 🐀 dal dungi muh me៚♥😇", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bot banake do") || (event.body.toLowerCase() == "sikha do")) {
+   if ((event.body.toLowerCase() == "mujhe bhi bot sikha do") || (event.body.toLowerCase() == "sikha do")) {
      return api.sendMessage("️Khud hi karlona. tumhe kya kuch nhi ata h?", threadID);
    };
 
@@ -288,19 +288,19 @@ if ((event.body.toLowerCase() == "himmat he") || (event.body.toLowerCase() == "b
      return api.sendMessage("️Aankh kyu maar rahe ho, Me bahut shareef hu🥺", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Kuti Basanti") || (event.body.toLowerCase() == "@kuti basanti")) {
-     return api.sendMessage("️Apni Gandi Juban Se Mera Naam Mat Lo Nahi To Khoon Kardungi😒", threadID);
+   if ((event.body.toLowerCase() == "🫢") || (event.body.toLowerCase() == "🤭")) {
+     return api.sendMessage("️MUH par Hat Kyo Rakh Rahe Ho Kiss Kar Lungi Kya😒", threadID);
    };
 
-  if ((event.body.toLowerCase() == "🙄🙄") || (event.body.toLowerCase() == "🙄")) {
-     return api.sendMessage("️️𝑼𝑷𝑬𝑹 𝑲𝒀𝑨 𝑴𝑰𝑳𝑮𝑨𝒀𝑨 𝑩𝑨𝑳𝑨𝑲🙄", threadID);
+  if ((event.body.toLowerCase() == "good morning") || (event.body.toLowerCase() == "Good morning")) {
+     return api.sendMessage("️️ Good morning babu 💩 karke aao", threadID);
    };
 
    if ((event.body.toLowerCase() == "koi nahi apna") || (event.body.toLowerCase() == "sab matlbi hai") || (event.body.toLowerCase() == "koi pyar nhi karta")) {
      return api.sendMessage("️Me hu na baby mere pass aao 🥰🤗. Me karunga na aapko payar 🙈 (londo tum dur hi rahna saalo 😑)", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Mêlå Bãçhå") || (event.body.toLowerCase() == "virat")) {
+   if ((event.body.toLowerCase() == "Bacha") || (event.body.toLowerCase() == "virat")) {
      return api.sendMessage("mere boss ka naam mat lo nale me fek dungi😒😬", threadID);
    };
 
@@ -332,7 +332,7 @@ if ((event.body.toLowerCase() == "himmat he") || (event.body.toLowerCase() == "b
      return api.sendMessage("Tujhe mai pagal dikhai deti hu", threadID);
    };
 
-   if ((event.body.toLowerCase() == "jai shree ram") || (event.body.toLowerCase() == "jai shree krishna")) {
+   if ((event.body.toLowerCase() == "Jai shree ram") || (event.body.toLowerCase() == "radhe radhe")) {
      return api.sendMessage("Jai ho parbhu sabko meri tarf se thodi akal dedo😥", threadID);
    };
 
