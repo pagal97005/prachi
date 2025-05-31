@@ -94,8 +94,8 @@ if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "😑")
        return api.sendMessage("Kya Hmm 🙄ThaRki", threadID);
      };
 
-     if ((event.body.toLowerCase() == "@Sanaya Khan") || (event.body.toLowerCase() == "sanaya")) {
-       return api.sendMessage("YEh Tho MeRe MaLik PaR Jaan DeTi Hai🙈🥰💙", threadID);
+     if ((event.body.toLowerCase() == "😒😒👈") || (event.body.toLowerCase() == "😂😂👈")) {
+       return api.sendMessage("YEh ugli mat dikhaya karo Tod Dungi", threadID);
      };
     if ((event.body.toLowerCase() == "Khayal rakhna apna") || (event.body.toLowerCase() == "khayal rakhna") || (event.body.toLowerCase() == "apna khayal rakhna") || (event.body.toLowerCase() == "khayl rakna")) {
      return api.sendMessage("Tum KiSlie Ho Tum Rakhlo😒", threadID);
