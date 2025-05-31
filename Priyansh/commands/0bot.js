@@ -223,7 +223,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Yes <3", threadID);
    };
 
-   if ((event.body.toLowerCase() == "@Mêlå Baçhå") || (event.body.toLowerCase() == "@Mêlå Baçhå")) {
+   if ((event.body.toLowerCase() == "@Mêlå") || (event.body.toLowerCase() == "Baçhå")) {
      return api.sendMessage("Mera bOs Abhi Busy hai Mujhe bolo kiya kam hai", threadID);
    };
 
