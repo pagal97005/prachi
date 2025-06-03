@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "GOOD MORNING",
+	name: "good morning",
     version: "1.0.1",
 	hasPermssion: 0,
 	credits: "arif babu", 
@@ -12,9 +12,9 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("GM")==0 || event.body.indexOf("gm")==0 || event.body.indexOf("Good morning")==0 || event.body.indexOf("GOOD MORNING")==0) {
+	if (event.body.indexOf("morning")==0 || event.body.indexOf("gm")==0 || event.body.indexOf("Good morning")==0 || event.body.indexOf("GOOD MORNING")==0) {
 		var msg = {
-				body: "😁 𝐆𝐎𝐎𝐃 𝐌𝐎𝐑𝐍𝐈𝐍𝐆 𝐃𝐀𝐑𝐋𝐈𝐍𝐆 😁",
+				body: "😡|| 𝐆𝐨𝐨𝐝 𝐦𝐨𝐫𝐧𝐢𝐧𝐠 𝐃𝐚𝐫𝐥𝐢𝐧𝐠 𝐔𝐭𝐡 𝐣𝐚𝐨 ||😡",
 				attachment: fs.createReadStream(__dirname + `/noprefix/gm.gif`)
 			}
 			api.sendMessage(msg, threadID, messageID);
