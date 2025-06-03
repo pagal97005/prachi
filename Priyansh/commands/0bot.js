@@ -46,8 +46,8 @@ if ((event.body.toLowerCase() == "🥱") || (event.body.toLowerCase() == "😑")
      return api.sendMessage("Aao baby so jao mere pallu me ghuske😜🥰💙", threadID);
    };
 
-  if ((event.body.toLowerCase() == "welcome") || (event.body.toLowerCase() == "welcome ho gya")) {
-     return api.sendMessage("𝐇𝐀𝐌 𝐁𝐇𝐀𝐈 𝐇𝐎 𝐆𝐘𝐀 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐊𝐔𝐒𝐇 𝐑𝐇𝐄 ", threadID);
+  if ((event.body.toLowerCase() == "💩💩") || (event.body.toLowerCase() == "💩")) {
+     return api.sendMessage("kha ke so jana ", threadID);
    };
 
         if ((event.body.toLowerCase() == "💋") || (event.body.toLowerCase() == "💋💋💋")) {
