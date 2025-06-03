@@ -13,7 +13,7 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("Samosa") ||
+  if(react.includes("samosa") ||
      react.includes("SAMOSA") || react.includes("SamoSa") || react.includes("samosha") ||
 react.includes("SaMosa") ||
 react.includes("SAmosA")) {
