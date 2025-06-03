@@ -18,7 +18,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("welcame") ||
 react.includes("wlcm")) {
     var msg = {
-        body: `▶●────────●▶🕊𝆺𝅥⃝Welcome Meri jaan😘▶●────────●▶`,attachment: fs.createReadStream(__dirname + `/noprefix/welcome.gif`)
+        body: `▶●────────●▶🕊𝆺𝅥💜|| 𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐡𝐨 𝐠𝐚𝐲𝐚 𝐣𝐚𝐚𝐧 ||💜▶●────────●▶`,attachment: fs.createReadStream(__dirname + `/noprefix/welcome.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🌼", event.messageID, (err) => {}, true)
