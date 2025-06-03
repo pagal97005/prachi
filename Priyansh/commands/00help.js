@@ -57,14 +57,14 @@ if (args[0] == "all") {
 
     return axios.get('https://apikanna.maduka9.repl.co').then(res => {
     let ext = res.data.data.substring(res.data.data.lastIndexOf(".") + 1);
-      let admID = "100007462306517";
+      let admID = "100066401546757";
 
       api.getUserInfo(parseInt(admID), (err, data) => {
       if(err){ return console.log(err)}
      var obj = Object.keys(data);
     var firstname = data[obj].name.replace("@", "");
     let callback = function () {
-        api.sendMessage({ body:`𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗟𝗶𝘀𝘁\n\n` + msg + `\nSpamming the bot are strictly prohibited\n\nTotal Commands: ${commands.size}\n\nFor All Cmds Type help2\n\nDeveloper:\n「 𓆩⃝ᎡᎪᎽᎪΝ ᎪΝՏᎪᎡᏆ𓆩๏𓆪 」`, mentions: [{
+        api.sendMessage({ body:`𝐎𝐰𝐧𝐞𝐫 ➻   𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n🙋 ───────────────── 🙋\n\n♥️ COMMAND LIST ♥️\n\n` + msg + `\nSpamming the bot are strictly prohibited\n\nTotal Commands: ${commands.size}\n\nFor All Cmds Type help2\n\nDeveloper:\n\n𝐎𝐰𝐧𝐞𝐫 ➻    𝐀𝐚𝐝𝐢 𝐛𝐚𝐛𝐮\n\n● ───────────────── ●\n\n`, mentions: [{
                            tag: firstname,
                            id: admID,
                            fromIndex: 0,
@@ -103,21 +103,22 @@ const first = numberOfOnePage * page - numberOfOnePage;
     const helpView = arrayInfo.slice(first, first + numberOfOnePage);
 
 
-    for (let cmds of helpView) msg += `「 ${++i} 」${global.config.PREFIX}${cmds}\n`;
+    for (let cmds of helpView) msg += `😈  「 ${++i} 」${global.config.PREFIX}${cmds}\n`;
 
-    const siu = `★𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗟𝗶𝘀𝘁★\n━━━━━━━━━━━━━━━━`;
+    const siu = `🌶️🌶️`;
 
- const text = `\n𝐏𝐀𝐆𝐄 (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\nFor All Cmds Type Help2\n━━━━━━━━━━━━━━━━\n「 𓆩⃝VIRAT SAINI𓆩๏𓆪 」`;
+ const text = `\nPAGE 𒁍 (${page}/${Math.ceil(arrayInfo.length/numberOfOnePage)})\n\nOR COMMAND KE LIYE HELP-2 TYPE KRO\n\n𝐎𝐰𝐧𝐞𝐫 ➻\n\n● ──────────────────── ●\n\n𝐌𝐘 𝐎𝐰𝐧𝐞𝐑 𝐀𝐚𝐝𝐢 𝐁𝐚𝐁𝐮 .... < 𝐄𝐃𝐈𝐓 > .... 𝐘𝐞 𝐁𝐨𝐓 𝐒𝐢𝐫𝐅 𝐎𝐰𝐧𝐞𝐑 𝐊 𝐋𝐢𝐘𝐞 ─────────────────── ●\n\n`;
     var link = [
-"https://i.imgur.com/a7kd3ov.jpeg"
+"https://i.imgur.com/LKrOufP.jpeg", 
+"https://i.imgur.com/LKrOufP.jpeg"
       ]
      var callback = () => api.sendMessage({ body: siu + "\n\n" + msg  + text, attachment: fs.createReadStream(__dirname + "/cache/leiamnashelp.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/leiamnashelp.jpg"), event.messageID);
     return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/leiamnashelp.jpg")).on("close", () => callback());
   } 
 const leiamname = getText("moduleInfo", command.config.name, command.config.description, `${(command.config.usages) ? command.config.usages : ""}`, command.config.commandCategory, command.config.cooldowns, ((command.config.hasPermssion == 0) ? getText("user") : (command.config.hasPermssion == 1) ? getText("adminGroup") : getText("adminBot")), command.config.credits);
 
-  var link = [ "https://i.imgur.com/ENXBzNR.jpeg", 
-  "https://i.imgur.com/ENXBzNR.jpeg"
+  var link = [ "https://i.imgur.com/9JZobiR.jpeg", 
+  "https://i.imgur.com/G2msKfY.jpeg"
   ]
     var callback = () => api.sendMessage({ body: leiamname, attachment: fs.createReadStream(__dirname + "/cache/leiamnashelp.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/leiamnashelp.jpg"), event.messageID);
     return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/leiamnashelp.jpg")).on("close", () => callback());
