@@ -16,11 +16,11 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	let react = event.body.toLowerCase();
 	if(react.includes("Love") ||
-     react.includes("I love") || react.includes("lOve") || react.includes("LoVe") ||
+     react.includes("loVe") || react.includes("lOve") || react.includes("LOVe") ||
 react.includes("love") ||
-react.includes("Love")) {
+react.includes("LovE")) {
 		var msg = {
-				body: `💋LOVE YOU 2 MERI JAAN😘💋💋`,attachment: fs.createReadStream(__dirname + `/noprefix/love.mp4`)
+				body: `😘 𝐋𝐨𝐯𝐞 𝐘𝐨𝐮 𝐦𝐞𝐫𝐢 𝐉𝐚𝐚𝐧 💋💋`,attachment: fs.createReadStream(__dirname + `/noprefix/love.gif`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙈", event.messageID, (err) => {}, true)
