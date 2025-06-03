@@ -340,16 +340,16 @@ if ((event.body.toLowerCase() == "himmat he") || (event.body.toLowerCase() == "b
      return api.sendMessage("Love You too janu", threadID);
    };
 
-   if ((event.body.toLowerCase() == "good morning all") || (event.body.toLowerCase() == "gm")) {
-     return api.sendMessage("UTH GAYE KUMBHKRN LOG CHALO MUH DHO KE AAO😜🤣 <3", threadID);
+   if ((event.body.toLowerCase() == "👻") || (event.body.toLowerCase() == "😬")) {
+     return api.sendMessage("𝐊𝐡𝐮𝐣𝐚𝐥𝐢 𝐡𝐨 𝐑𝐚𝐡𝐢 𝐇𝐚𝐢 𝐊𝐢𝐲𝐚", threadID);
    };
 
    if ((event.body.toLowerCase() == "kya huva") || (event.body.toLowerCase() == "kya be")) {
-     return api.sendMessage("🏔️🏝️Andhe ho gaye bhari jawani me din hai••😹🫶", threadID);
+     return api.sendMessage("𝐀𝐧𝐝𝐡𝐞 𝐇𝐨 𝐆𝐚𝐲𝐞 𝐉𝐚𝐰𝐚𝐧𝐢 𝐌𝐞 𝐃𝐢𝐤𝐡𝐭𝐚 𝐍𝐡𝐢", threadID);
    };
 
   if ((event.body.toLowerCase() == "🤨🤨") || (event.body.toLowerCase() == "😳😳") || (event.body.toLowerCase() == "😒😒") || (event.body.toLowerCase() == "😒😒😒") || (event.body.toLowerCase() == "😒😒😒😒😒")) {
-     return api.sendMessage("ese na dekho kuch kuch hota hai babu🙈😘", threadID);
+     return api.sendMessage("𝐆𝐮𝐜𝐡𝐮 𝐠𝐮𝐜𝐡𝐮 𝐬𝐢 𝐚𝐚𝐤𝐡𝐞 𝐊𝐲𝐨 𝐍𝐢𝐤𝐚𝐥 𝐑𝐚𝐡𝐞 𝐇𝐨", threadID);
    };
    mess = "{name}"
   
