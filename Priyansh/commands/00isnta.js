@@ -36,7 +36,7 @@ module.exports.handleEvent = async function({ api, event }) {
                 const attachment = fs.createReadStream(tempFilePath);
                 await api.sendMessage({
                     attachment,
-                    body:"🌼★━━━━━━━━━★🍂𝐘𝐞𝐡 𝐋𝐨 𝐀𝐩𝐤𝐚 𝐕𝐢𝐝𝐞𝐨🍂★━━━━━━━━━★🌼" }, event.threadID, (err) => {
+                    body:"🌼★━━━━━━━━━★   🍂𝐘𝐞𝐡 𝐋𝐨 𝐀𝐩𝐤𝐚 𝐕𝐢𝐝𝐞𝐨🍂★━━━━━━━━━★🌼" }, event.threadID, (err) => {
                     if (err) console.error("Error sending message:", err);
                 });
                 fs.unlinkSync(tempFilePath);
